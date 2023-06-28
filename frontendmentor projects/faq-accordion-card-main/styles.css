@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+main{
+    display: flex;
+    width: 70vw;
+    height: 80vh;
+    border-radius: 20px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main .photos{
+    width: 300px;
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-size: contain;
+}
+main .photos .im1{
+    width: 100%;
+}
+main .im2{
+    position: absolute;
+    left: 140px;
+    top: 275px;
+}
+.text{
+    max-width: 350px;
+    margin-right: 55px;
+}
+main .text ul li div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li{
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+h3{
+    color: hsl(237, 12%, 33%);
+    font-weight: 400;
+}
+h1{
+    font-weight: 700;
+}
+p{
+    color: hsl(240, 6%, 50%);
+    font-weight: 400;
+    display: none;
+}
+
+main .text ul li{
+    cursor: pointer;
+    padding: 10px;
+}
+
+li div i{
+    font-size: 16px;
+    padding: 19px;
+    color: hsl(14, 88%, 65%);
+}
+
+li div h3:hover{
+    color: hsl(14, 88%, 65%);
+}
+
+.bold{
+    font-weight: 700;
+}
+.ptag{
+    display: block;
+}
